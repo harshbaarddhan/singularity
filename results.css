@@ -1,0 +1,185 @@
+/* Page layout */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  } 
+  /* Header styles */
+  
+  header {
+    background-color: #223a5f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+  
+  .tagline {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .result-card {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .result-card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .result-card-img img {
+    max-height: 100%;
+  }
+  
+  .result-card-info {
+    padding: 20px;
+  }
+  
+  .result-card-info h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .result-card-info p {
+    margin-top: 0;
+    line-height: 1.5;
+  }
+  footer {
+    background-color: #223a5f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    }
+    
+    .footer-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    }
+    
+    .footer-info p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    }
+    
+    .social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    }
+    
+    .social-icons a:hover {
+    color: #f5f5f5;
+    }
+    
+    /* Media queries */
+    
+    @media (max-width: 768px) {
+    header {
+    flex-direction: column;
+    }
+    
+    nav {
+    margin-bottom: 20px;
+    }
+    
+    nav li {
+    margin: 0 10px;
+    }
+    
+    .hero {
+    flex-direction: column;
+    text-align: center;
+    }
+    
+    .hero img {
+    max-width: 100%;
+    margin-top: 20px;
+    }
+    }  
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      }
+      
+      .dropdown-menu.show {
+        display: block;
+      }
+      
+      .dropdown-menu ul {
+        list-style: none;
+      }
+      
+      .dropdown-menu li {
+        margin-bottom: 10px;
+      }
+      
+      .dropdown-menu a {
+        color: #223a5f;
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+      
+      .dropdown-menu a:hover {
+        text-decoration: underline;
+      }
+      

@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f33b1b;
+    color: rgb(243, 238, 238);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  header h2 {
+    margin: 0;
+  }
+  .site-banner {
+    background-color: #0c2461;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .site-banner p {
+    margin: 1;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1800px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin
+    : 0;
+    padding: 0;
+    }
+    
+    nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+    }
+    
+    nav ul li a {
+    color: white;
+    text-decoration: none;
+    }
+    .navbar-nav {
+        width: 100%;
+      }
+      
+      .navbar-nav .nav-item {
+        margin: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      
+      .navbar-nav .nav-link {
+        display: block;
+        padding: 1rem;
+        color: rgba(255, 255, 255, 0.5);
+      }
+      
+      .navbar-nav .nav-link:hover {
+        color: rgba(255, 255, 255, 0.75);
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+      
+      .navbar-toggler {
+        border: none;
+      }
+      
+      .navbar-toggler:focus {
+        outline: none;
+      }
+      
+      @media (max-width: 767px) {
+        .navbar-nav.flex-column .nav-item {
+          border-bottom: none;
+        }
+      
+        .navbar-nav.flex-column .nav-link {
+          padding-left: 2rem;
+        }
+      }
+      
+    main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    }
+    
+    section {
+    margin-bottom: 2rem;
+    }
+    
+    section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+    
+    section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    }
+    
+    section ul {
+    list-style: disc;
+    margin-left: 2rem;
+    }
+    
+    .cta {
+    display: inline-block;
+    background-color: #141212;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    }
+    .card-img-top {
+        height: 300px;
+        object-fit: cover;
+      }
+      
+      .card-title {
+        font-size: 1.5rem;
+      }
+      
+      .card-text {
+        font-size: 1rem;
+      }
+      
+    .cta:hover {
+    background-color: #444;
+    }   
+    form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    }
+    
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    }
+    
+    form button[type="submit"] {
+    display: block;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    }
+    
+    form button[type="submit"]:hover {
+    background-color: #444;
+    }
+    
+    footer {
+    background-color: #ee0a0a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    }
+    
+    footer p {
+    margin: 0;
+    }  

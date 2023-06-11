@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Singularity Career Institute - Admission Form</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="harsh.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="faculty.html">Faculty</a></li>
+          <li><a href="gallary.html">Gallery</a></li>
+          <li><a href="https://forms.gle/4pVVgJyDNftkHAH8A">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>Singularity Career Institute</h1>
+      <p class="tagline">A Step Towards Success</p>
+    </header>
+    <div class="form-container">
+      <h1>Admission Form</h1>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="class">Class:</label>
+        <select id="class" name="class" required>
+          <option value="">Select Class</option>
+          <option value="6th">6th</option>
+          <option value="7th">7th</option>
+          <option value="8th">8th</option>
+          <option value="9th">9th</option>
+          <option value="10th">10th</option>
+          <option value="11th">11th</option>
+          <option value="12th">12th</option>
+        </select>
+        
+        <label for="exam-prep">Exam Preparation:</label>
+        <input type="checkbox" id="jee" name="exam-prep" value="jee">
+        <label for="jee">JEE</label>
+        <input type="checkbox" id="neet" name="exam-prep" value="neet">
+        <label for="neet">NEET</label>
+        <input type="checkbox" id="other" name="exam-prep" value="other">
+        <label for="other">Other</label>
+        
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments"></textarea>
+        
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
